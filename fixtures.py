@@ -2,7 +2,7 @@ from core.employee_db import EmployeeBD
 import pytest
 
 
-@pytest.fixture(scope='session')
+@pytest.fixture(scope='module')
 def db():
     print('-----setUp-----')
     db = EmployeeBD()

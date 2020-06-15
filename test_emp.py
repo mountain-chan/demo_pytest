@@ -1,5 +1,5 @@
 from core import check_valid_name
-from tests.fixtures import db
+from fixtures import db
 
 
 def test_check_valid_name_2(db):
